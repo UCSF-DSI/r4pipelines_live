@@ -6,3 +6,5 @@ data/processed/cleaned_jeopardy_df.rds: data/processed/filtered_jeopardy_df.rds 
 
 data/processed/filtered_jeopardy_df.rds: data/raw/jeopardy.csv scripts/00_filter_data.R
 		Rscript scripts/00_filter_data.R
+		
+		
